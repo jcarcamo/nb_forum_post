@@ -1,3 +1,5 @@
 docs/
+output/
 data/forumTest-stemmed.data
 data/forumTraining-stemmed.data
+src/classifier.pyc
