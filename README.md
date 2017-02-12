@@ -1,3 +1,3 @@
-# Naive Bayes Forum Post Classification
+# Naive Bayes ForumPost Classification
 
 TBD
