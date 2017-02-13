@@ -54,7 +54,7 @@ def map_log_of_probability(class_word_obj):
 def map_get_class_prob(class_doc):
     global classifiers
     classifier = classifiers[class_doc[0][2]]
-    c_nb = classifier.class_probability*math.exp(class_doc[1])
+    c_nb = math.log(classifier.class_probability) + class_doc[1]
     return ((class_doc[0][0],class_doc[0][1]),(class_doc[0][2],c_nb))
 
 
